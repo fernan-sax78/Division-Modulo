@@ -1,0 +1,56 @@
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.cont{
+    width: 100%;
+    margin: 2rem auto;
+    height: 25rem;
+   /*  border: 1px solid red; */
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3.125rem;
+}
+.green{
+    color: #36a789;
+}
+
+.red{
+    color: #da1715;
+}
+input{
+    margin: 1rem;
+}
+.h1,.titolo{
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+}
+
+.inputText{
+    width: 12rem;
+    font-size: 1.37rem;
+    height: auto;
+    padding: .8rem;
+}
+.fa-divide{
+    font-size: 2rem;
+}
+.error{
+    color : rgb(206, 15, 15);
+    animation: error 1s infinite;
+}
+
+@keyframes error {
+    from{opacity:0;}
+    to{opacity:1;}
+}
